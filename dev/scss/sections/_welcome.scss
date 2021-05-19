@@ -1,0 +1,13 @@
+#welcome_section
+{
+    >article
+    {
+        #welcome_image
+        {
+            background-image: url("../img/welcome/welcome.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 500px;
+        }
+    }
+}

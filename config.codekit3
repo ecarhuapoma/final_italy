@@ -7,7 +7,7 @@
       "uuidString" : "301077FD-6587-4DAE-808A-231B715466F3"
     }
   ],
-  "creatorBuild" : "34018",
+  "creatorBuild" : "34127",
   "files" : {
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
@@ -20,6 +20,71 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/img\/destinations\/colorfulhomes.jpg" : {
+      "ft" : 16384,
+      "iS" : 192263,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/destinations\/colorfulhomes.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/destinations\/italyalley.jpg" : {
+      "ft" : 16384,
+      "iS" : 108526,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/destinations\/italyalley.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/destinations\/place.jpg" : {
+      "ft" : 16384,
+      "iS" : 733458,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/destinations\/place.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/food\/lasagna.png" : {
+      "ft" : 32768,
+      "iS" : 239229,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/food\/lasagna.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/food\/tomatos.jpg" : {
+      "ft" : 16384,
+      "iS" : 150728,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/food\/tomatos.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/footer\/facebook.svg" : {
       "ft" : 2097152,
@@ -51,12 +116,38 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/hero-2\/hero.jpg" : {
+    "\/deploy\/img\/history\/church.png" : {
+      "ft" : 32768,
+      "iS" : 828158,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/history\/church.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/history\/flag.png" : {
+      "ft" : 32768,
+      "iS" : 1348,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/history\/flag.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/history\/rome.jpg" : {
       "ft" : 16384,
-      "iS" : 96833,
+      "iS" : 83553,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero-2\/hero.jpg",
+      "oAP" : "\/deploy\/img\/history\/rome.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -64,12 +155,25 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/history\/hero.jpg" : {
+    "\/deploy\/img\/history\/sardinia.png" : {
+      "ft" : 32768,
+      "iS" : 2314887,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/history\/sardinia.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/travel\/airplane.jpg" : {
       "ft" : 16384,
-      "iS" : 15971,
+      "iS" : 269430,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/history\/hero.jpg",
+      "oAP" : "\/deploy\/img\/travel\/airplane.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -77,12 +181,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/skills\/robot.jpg" : {
+    "\/deploy\/img\/travel\/airport.jpg" : {
       "ft" : 16384,
-      "iS" : 122546,
+      "iS" : 35957,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/skills\/robot.jpg",
+      "oAP" : "\/deploy\/img\/travel\/airport.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -90,12 +194,25 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/skynet\/gallery-1.jpg" : {
+    "\/deploy\/img\/travel\/hotel.png" : {
+      "ft" : 32768,
+      "iS" : 368466,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/travel\/hotel.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/travel\/water.jpg" : {
       "ft" : 16384,
-      "iS" : 163011,
+      "iS" : 46637,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/skynet\/gallery-1.jpg",
+      "oAP" : "\/deploy\/img\/travel\/water.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -103,64 +220,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/skynet\/gallery-2.jpg" : {
+    "\/deploy\/img\/welcome\/welcome.jpg" : {
       "ft" : 16384,
-      "iS" : 100411,
+      "iS" : 648494,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/skynet\/gallery-2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/skynet\/gallery-3.jpg" : {
-      "ft" : 16384,
-      "iS" : 70439,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/skynet\/gallery-3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/skynet\/gallery-4.jpg" : {
-      "ft" : 16384,
-      "iS" : 170027,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/skynet\/gallery-4.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/skynet\/gallery-5.jpg" : {
-      "ft" : 16384,
-      "iS" : 47796,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/skynet\/gallery-5.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/skynet\/gallery-6.jpg" : {
-      "ft" : 16384,
-      "iS" : 115782,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/skynet\/gallery-6.jpg",
+      "oAP" : "\/deploy\/img\/welcome\/welcome.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -187,28 +252,28 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/design\/.structure-tags.sketch.icloud" : {
+    "\/design\/structure-tags.sketch" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/design\/.structure-tags.sketch.icloud",
+      "oAP" : "\/design\/structure-tags.sketch",
       "oF" : 0
     },
-    "\/dev\/content\/hero-2.kit" : {
+    "\/dev\/content\/cuisine.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/hero-2.html",
+      "oAP" : "\/dev\/content\/cuisine.html",
       "oF" : 0
     },
-    "\/dev\/content\/hero.kit" : {
+    "\/dev\/content\/destinations.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/hero.html",
+      "oAP" : "\/dev\/content\/destinations.html",
       "oF" : 0
     },
     "\/dev\/content\/history.kit" : {
@@ -219,20 +284,28 @@
       "oAP" : "\/dev\/content\/history.html",
       "oF" : 0
     },
-    "\/dev\/content\/skills.kit" : {
+    "\/dev\/content\/travel.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/skills.html",
+      "oAP" : "\/dev\/content\/travel.html",
       "oF" : 0
     },
-    "\/dev\/content\/skynet.kit" : {
+    "\/dev\/content\/weather.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/weather.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/welcome.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/skynet.html",
+      "oAP" : "\/dev\/content\/welcome.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -426,6 +499,34 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_history.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_history.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_welcome.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_welcome.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -449,7 +550,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 638898965.76008201,
-    "displayValue" : "content complete",
+    "displayValue" : "final_italy",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0
@@ -2505,6 +2606,9 @@
       "removeVariables" : 0,
       "safelistEntries" : [
 
+      ],
+      "skippedEntries" : [
+        "node_modules\/**"
       ]
     },
     "rollupContext" : "",
@@ -2539,6 +2643,7 @@
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
+    "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
     "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,

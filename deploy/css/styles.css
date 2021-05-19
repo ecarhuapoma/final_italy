@@ -352,6 +352,18 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.hidden {
+  display: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -382,6 +394,29 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header .";
+  background-color: #3762C5;
+}
+header > h1 {
+  grid-area: header;
+}
+
 /* =============
     Footer
 ============= */
+#welcome_section > article #welcome_image {
+  background-image: url("../img/welcome/welcome.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+#history_section > article #rome_image {
+  background-image: url("../img/history/rome.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
