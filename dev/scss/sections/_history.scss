@@ -9,5 +9,27 @@
             background-size: cover;
             height: 500px;
         }
+        #sardinia_image
+        {
+            background-image: url("../img/history/sardinia.png");
+            background-position: center;
+            background-size: cover;
+            height: 500px;
+        }
+        #church_image
+        {
+            background-image: url("../img/history/church.png");
+            background-position: center;
+            background-size: cover;
+            height: 300px;
+        }
+        #flag_image
+        {
+            background-image: url("../img/history/flag.png");
+            background-position: center;
+            background-size: cover;
+            height: 200px;
+        }
     }
+
 }

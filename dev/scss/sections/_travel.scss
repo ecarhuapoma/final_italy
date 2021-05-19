@@ -1,0 +1,26 @@
+#travel_section
+{
+    >article
+    
+    #plane_image
+    {
+        background-image: url("../img/travel/airplane.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+    }
+    #water_image
+    {
+        background-image: url("../img/travel/water.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+    }
+    #airport_image
+    {
+        background-image: url("../img/travel/airport.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+    }
+}

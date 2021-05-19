@@ -1,0 +1,22 @@
+#cuisine_section
+{
+    >article
+    {
+    #tomatos_image
+    {
+        background-image: url("../img/food/tomatos.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+    }
+    #lasagna_image
+    {
+        background-image: url("../img/food/lasagna.png");
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+    }
+
+
+    }
+}
