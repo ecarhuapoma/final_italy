@@ -2,6 +2,9 @@
     Mixins
 ============= */
 /* ---------------- Font Sizing ---------------- */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 html {
   font-size: 100%;
 }
@@ -355,6 +358,25 @@ template {
 /* =============
     Typography
 ============= */
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
 /* =============
     Buttons
 ============= */
@@ -382,6 +404,231 @@ textarea {
 /* =============
     Header
 ============= */
+<<<<<<< Updated upstream
 /* =============
     Footer
 ============= */
+=======
+header {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header .";
+  background-color: #3762C5;
+}
+header > h1 {
+  grid-area: header;
+  color: #fff;
+}
+header > h1 > span {
+  font-weight: 700;
+}
+
+/* =============
+    Footer
+============= */
+#welcome_section #welcome_image {
+  background-image: url("../img/welcome/welcome.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+#welcome_section #main_splash {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". title1 .";
+}
+#welcome_section #main_splash #main_splash_grid {
+  background-color: #3762C5;
+  color: #fff;
+  grid-area: title1;
+}
+#welcome_section #main_splash #main_splash_grid > h2 {
+  text-align: center;
+}
+#welcome_section #main_splash #main_splash_grid > h2 > span {
+  font-weight: 700;
+}
+#welcome_section #main_splash #main_splash_grid > p {
+  padding: 16px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #welcome_section #main_splash {
+    grid-template-columns: 20% auto 20%;
+  }
+}
+
+#history_section > article #rome_image {
+  background-image: url("../img/history/rome.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: flex-end;
+}
+#history_section > article #rome_image > h1 {
+  line-height: 0;
+  color: #fff;
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  #history_section > article #rome_image > h1 {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  #history_section > article #rome_image > h1 {
+    font-size: 4.6875rem;
+  }
+}
+@media (min-width: 1200px) {
+  #history_section > article #rome_image > h1 {
+    font-size: 6.25rem;
+  }
+}
+#history_section > article #sardinia_image {
+  background-image: url("../img/history/sardinia.png");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+#history_section > article #church_image {
+  background-image: url("../img/history/church.png");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+#history_section > article #flag_image {
+  background-image: url("../img/history/flag.png");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+#cuisine_section > article #tomatos_image {
+  background-image: url("../img/food/tomatos.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+}
+#cuisine_section > article #tomatos_image > h1 {
+  line-height: 0;
+  color: #fff;
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  #cuisine_section > article #tomatos_image > h1 {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  #cuisine_section > article #tomatos_image > h1 {
+    font-size: 4.6875rem;
+  }
+}
+@media (min-width: 1200px) {
+  #cuisine_section > article #tomatos_image > h1 {
+    font-size: 6.25rem;
+  }
+}
+#cuisine_section > article #lasagna_image {
+  background-image: url("../img/food/lasagna.png");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+#destinations_section > article #place_image {
+  background-image: url("../img/destinations/place.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #destinations_section > article #place_image {
+    align-items: flex-end;
+  }
+}
+#destinations_section > article #place_image > h1 {
+  line-height: 0;
+  color: #fff;
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  #destinations_section > article #place_image > h1 {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  #destinations_section > article #place_image > h1 {
+    font-size: 4.6875rem;
+  }
+}
+@media (min-width: 1200px) {
+  #destinations_section > article #place_image > h1 {
+    font-size: 6.25rem;
+  }
+}
+#destinations_section > article #colorfulhomes_image {
+  background-image: url("../img/destinations/colorfulhomes.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+#destinations_section > article #italyalley {
+  background-image: url("../img/destinations/italyalley.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+#travel_section > article #plane_image {
+  background-image: url("../img/travel/airplane.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #travel_section > article #plane_image {
+    align-items: flex-end;
+  }
+}
+#travel_section > article #plane_image > h1 {
+  line-height: 0;
+  color: #fff;
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  #travel_section > article #plane_image > h1 {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  #travel_section > article #plane_image > h1 {
+    font-size: 4.6875rem;
+  }
+}
+@media (min-width: 1200px) {
+  #travel_section > article #plane_image > h1 {
+    font-size: 6.25rem;
+  }
+}
+#travel_section #water_image {
+  background-image: url("../img/travel/water.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+#travel_section #airport_image {
+  background-image: url("../img/travel/airport.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+>>>>>>> Stashed changes

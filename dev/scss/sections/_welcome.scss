@@ -1,0 +1,46 @@
+#welcome_section {
+    #welcome_image {
+        background-image: url("../img/welcome/welcome.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+    }
+
+    // grid 
+    // { @include md{
+    //     text-align: center;
+
+    //     grid-template-columns: ". grid .";
+    // }
+
+    // }
+
+    #main_splash {
+
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas:
+            ". title1 .";
+
+        #main_splash_grid {
+            background-color: $bg-blue;
+            color: $white;
+            grid-area: title1;
+
+            >h2 {
+                text-align: center;
+                >span {
+                    font-weight: 700;
+                }
+            }
+
+            >p {
+                padding: 16px;
+                text-align: center;
+            }
+        }
+        @include md{
+            grid-template-columns: 20% auto 20%;
+        }
+    }
+}
