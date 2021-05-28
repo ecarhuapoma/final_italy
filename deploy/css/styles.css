@@ -404,11 +404,6 @@ textarea {
 /* =============
     Header
 ============= */
-<<<<<<< Updated upstream
-/* =============
-    Footer
-============= */
-=======
 header {
   display: grid;
   grid-template-columns: 16px auto 16px;
@@ -631,4 +626,3 @@ header > h1 > span {
   background-size: cover;
   height: 300px;
 }
->>>>>>> Stashed changes
