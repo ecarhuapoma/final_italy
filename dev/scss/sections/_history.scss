@@ -1,7 +1,5 @@
 #history_section
 {
-    >article
-    {
         #rome_image
         {
             background-image: url("../img/history/rome.jpg");
@@ -40,7 +38,21 @@
             color: $white;
             padding: 20px;
             text-align: center;
-            font-weight: 300; 
+            font-weight: 300;
+            display: grid;
+            font-size: rem-calc(16);
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". content .";
+            @include md{
+                grid-template-columns: 20% auto 20%;
+                font-size: rem-calc(20);
+            }
+            @include xl{
+                grid-template-columns: auto 600px auto;
+            }
+            >p{
+                grid-area: content;
+            }
         }
 
         #sardinia_image
@@ -48,7 +60,7 @@
             background-image: url("../img/history/sardinia.png");
             background-position: center;
             background-size: cover;
-            height: 200px;
+            height: 300px;
         }
 
         #sardinia_title{
@@ -75,6 +87,63 @@
             background-size: cover;
             height: 200px;
         }
-    }
 
+        #annoying_grid{
+            #annoying_flag{
+                display: none;
+                @include lg{
+                    display: list-item;
+                }
+            }
+            display: grid;
+            grid-template-columns: 36px auto 36px;
+            grid-template-areas:
+            ". image1 ."
+            ". body1 ."
+            ". body2 ."
+            ". image2 ."
+            ". body3 .";
+            #annoying_sardinia{
+                grid-area: image1;
+            }
+            #sardinia_body1{
+                grid-area: body1;
+            }
+            #sardinia_body2{
+                grid-area: body2;
+            }
+            #annoying_milan{
+                grid-area: image2;
+            }
+            #milan_body1{
+                grid-area: body3;
+            }
+
+            
+
+            @include md{
+                grid-template-columns: 30% 10% 20% 10% auto;
+                grid-template-areas:
+                "image1 body1 body1 body1 ."
+                "body2 . body3 image2 image2";
+            }
+
+            @include lg{
+                grid-template-columns: auto 10% 15% 5% 10% 30%;
+                grid-template-areas: 
+                "image1 . flag1 flag1 . image2"
+                "body1 body2 body2 . body3 body3";
+
+                #milan_body1{
+                    text-align: right;
+                }
+
+                #annoying_flag{
+                    grid-area: flag1;
+                }
+            }
+           
+
+        }
 }
+

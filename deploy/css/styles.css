@@ -539,7 +539,7 @@ textarea {
   }
 }
 
-#history_section > article #rome_image {
+#history_section #rome_image {
   background-image: url("../img/history/rome.jpg");
   background-position: center;
   background-size: cover;
@@ -549,58 +549,122 @@ textarea {
   align-items: center;
 }
 @media (min-width: 768px) {
-  #history_section > article #rome_image {
+  #history_section #rome_image {
     justify-content: flex-start;
     align-items: flex-end;
   }
 }
-#history_section > article #rome_image > h1 {
+#history_section #rome_image > h1 {
   font-size: 2.5rem;
   font-weight: 300;
   line-height: 0;
   color: #000;
 }
 @media (min-width: 768px) {
-  #history_section > article #rome_image > h1 {
+  #history_section #rome_image > h1 {
     font-size: 4.0625rem;
     color: #fff;
   }
 }
 @media (min-width: 1024px) {
-  #history_section > article #rome_image > h1 {
+  #history_section #rome_image > h1 {
     font-size: 5rem;
   }
 }
-#history_section > article #little {
+#history_section #little {
   background-color: #3762C5;
   color: #fff;
   padding: 20px;
   text-align: center;
   font-weight: 300;
+  display: grid;
+  font-size: 1rem;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". content .";
 }
-#history_section > article #sardinia_image {
+@media (min-width: 768px) {
+  #history_section #little {
+    grid-template-columns: 20% auto 20%;
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 1200px) {
+  #history_section #little {
+    grid-template-columns: auto 600px auto;
+  }
+}
+#history_section #little > p {
+  grid-area: content;
+}
+#history_section #sardinia_image {
   background-image: url("../img/history/sardinia.png");
   background-position: center;
   background-size: cover;
-  height: 200px;
+  height: 300px;
 }
-#history_section > article #sardinia_title {
+#history_section #sardinia_title {
   font-size: 1.25rem;
 }
-#history_section > article #church_image {
+#history_section #church_image {
   background-image: url("../img/history/church.png");
   background-position: center;
   background-size: cover;
   height: 300px;
 }
-#history_section > article #milan_title {
+#history_section #milan_title {
   font-size: 1.25rem;
 }
-#history_section > article #flag_image {
+#history_section #flag_image {
   background-image: url("../img/history/flag.png");
   background-position: center;
   background-size: cover;
   height: 200px;
+}
+#history_section #annoying_grid {
+  display: grid;
+  grid-template-columns: 36px auto 36px;
+  grid-template-areas: ". image1 ." ". body1 ." ". body2 ." ". image2 ." ". body3 .";
+}
+#history_section #annoying_grid #annoying_flag {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #history_section #annoying_grid #annoying_flag {
+    display: list-item;
+  }
+}
+#history_section #annoying_grid #annoying_sardinia {
+  grid-area: image1;
+}
+#history_section #annoying_grid #sardinia_body1 {
+  grid-area: body1;
+}
+#history_section #annoying_grid #sardinia_body2 {
+  grid-area: body2;
+}
+#history_section #annoying_grid #annoying_milan {
+  grid-area: image2;
+}
+#history_section #annoying_grid #milan_body1 {
+  grid-area: body3;
+}
+@media (min-width: 768px) {
+  #history_section #annoying_grid {
+    grid-template-columns: 30% 10% 20% 10% auto;
+    grid-template-areas: "image1 body1 body1 body1 ." "body2 . body3 image2 image2";
+  }
+}
+@media (min-width: 1024px) {
+  #history_section #annoying_grid {
+    grid-template-columns: auto 10% 15% 5% 10% 30%;
+    grid-template-areas: "image1 . flag1 flag1 . image2" "body1 body2 body2 . body3 body3";
+  }
+  #history_section #annoying_grid #milan_body1 {
+    text-align: right;
+  }
+  #history_section #annoying_grid #annoying_flag {
+    grid-area: flag1;
+  }
 }
 
 #cuisine_section > article #tomatos_image {
