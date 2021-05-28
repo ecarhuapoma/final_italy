@@ -2,6 +2,7 @@
     Mixins
 ============= */
 /* ---------------- Font Sizing ---------------- */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&family=Ubuntu:wght@300;400;700&display=swap");
 html {
   font-size: 100%;
 }
@@ -377,7 +378,13 @@ h1 {
 }
 
 h2, h3 {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+#fox {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 
 /* =============
@@ -455,6 +462,63 @@ textarea {
   background-position: center;
   background-size: cover;
   height: 500px;
+  margin-bottom: -100px;
+}
+#welcome_section > article #welcome-grid {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". content .";
+}
+#welcome_section > article #welcome-grid #welcome-content {
+  grid-area: content;
+  background-color: #3762C5;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+}
+#welcome_section > article #welcome-grid #welcome-content > h2 {
+  font-size: 1.25rem;
+}
+@media (min-width: 768px) {
+  #welcome_section > article #welcome-grid #welcome-content > h2 {
+    font-size: 2.8125rem;
+  }
+}
+@media (min-width: 1024px) {
+  #welcome_section > article #welcome-grid #welcome-content > h2 {
+    font-size: 3.75rem;
+  }
+}
+#welcome_section > article #welcome-grid #welcome-content > p {
+  padding: 0px 60px;
+  font-size: 0.8125rem;
+}
+@media (min-width: 768px) {
+  #welcome_section > article #welcome-grid #welcome-content > p {
+    font-size: 0.875rem;
+    padding: 0px 100px;
+  }
+}
+@media (min-width: 1024px) {
+  #welcome_section > article #welcome-grid #welcome-content > p {
+    font-size: 1rem;
+    padding: 0px 140px;
+  }
+}
+@media (min-width: 1200px) {
+  #welcome_section > article #welcome-grid #welcome-content > p {
+    padding: 0px 180px;
+  }
+}
+@media (min-width: 768px) {
+  #welcome_section > article #welcome-grid {
+    grid-template-columns: 10% auto 10%;
+  }
+}
+@media (min-width: 1200px) {
+  #welcome_section > article #welcome-grid {
+    grid-template-columns: auto 1000px auto;
+  }
 }
 
 #history_section > article #rome_image {
@@ -462,6 +526,32 @@ textarea {
   background-position: center;
   background-size: cover;
   height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #history_section > article #rome_image {
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+}
+#history_section > article #rome_image > h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 0;
+  color: #000;
+}
+@media (min-width: 768px) {
+  #history_section > article #rome_image > h1 {
+    font-size: 4.0625rem;
+    color: #fff;
+  }
+}
+@media (min-width: 1024px) {
+  #history_section > article #rome_image > h1 {
+    font-size: 5rem;
+  }
 }
 #history_section > article #sardinia_image {
   background-image: url("../img/history/sardinia.png");
