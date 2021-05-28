@@ -372,12 +372,12 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
-h1 {
+h1, h3 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
 }
 
-h2, h3 {
+h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
 }
@@ -475,8 +475,26 @@ textarea {
   color: #fff;
   text-align: center;
   padding: 12px;
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  #welcome_section > article #welcome-grid #welcome-content {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  #welcome_section > article #welcome-grid #welcome-content {
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  #welcome_section > article #welcome-grid #welcome-content {
+    margin-bottom: 70px;
+  }
 }
 #welcome_section > article #welcome-grid #welcome-content > h2 {
+  margin-bottom: 10px;
+  margin-top: 15px;
   font-size: 1.25rem;
 }
 @media (min-width: 768px) {
@@ -525,7 +543,7 @@ textarea {
   background-image: url("../img/history/rome.jpg");
   background-position: center;
   background-size: cover;
-  height: 500px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -553,17 +571,30 @@ textarea {
     font-size: 5rem;
   }
 }
+#history_section > article #little {
+  background-color: #3762C5;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-weight: 300;
+}
 #history_section > article #sardinia_image {
   background-image: url("../img/history/sardinia.png");
   background-position: center;
   background-size: cover;
-  height: 500px;
+  height: 200px;
+}
+#history_section > article #sardinia_title {
+  font-size: 1.25rem;
 }
 #history_section > article #church_image {
   background-image: url("../img/history/church.png");
   background-position: center;
   background-size: cover;
   height: 300px;
+}
+#history_section > article #milan_title {
+  font-size: 1.25rem;
 }
 #history_section > article #flag_image {
   background-image: url("../img/history/flag.png");
@@ -577,6 +608,32 @@ textarea {
   background-position: center;
   background-size: cover;
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #cuisine_section > article #tomatos_image {
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+}
+#cuisine_section > article #tomatos_image > h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 0;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  #cuisine_section > article #tomatos_image > h1 {
+    font-size: 4.0625rem;
+    color: #fff;
+  }
+}
+@media (min-width: 1024px) {
+  #cuisine_section > article #tomatos_image > h1 {
+    font-size: 5rem;
+  }
 }
 #cuisine_section > article #lasagna_image {
   background-image: url("../img/food/lasagna.png");
@@ -589,7 +646,33 @@ textarea {
   background-image: url("../img/destinations/place.jpg");
   background-position: center;
   background-size: cover;
-  height: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #destinations_section > article #place_image {
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+}
+#destinations_section > article #place_image > h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 0;
+  color: #000;
+}
+@media (min-width: 768px) {
+  #destinations_section > article #place_image > h1 {
+    font-size: 4.0625rem;
+    color: #fff;
+  }
+}
+@media (min-width: 1024px) {
+  #destinations_section > article #place_image > h1 {
+    font-size: 5rem;
+  }
 }
 #destinations_section > article #colorfulhomes_image {
   background-image: url("../img/destinations/colorfulhomes.jpg");
@@ -609,6 +692,32 @@ textarea {
   background-position: center;
   background-size: cover;
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #travel_section > article #plane_image {
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+}
+#travel_section > article #plane_image > h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 0;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  #travel_section > article #plane_image > h1 {
+    font-size: 4.0625rem;
+    color: #fff;
+  }
+}
+@media (min-width: 1024px) {
+  #travel_section > article #plane_image > h1 {
+    font-size: 5rem;
+  }
 }
 #travel_section #water_image {
   background-image: url("../img/travel/water.jpg");

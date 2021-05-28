@@ -7,7 +7,34 @@
         background-image: url("../img/destinations/place.jpg");
         background-position: center;
         background-size: cover;
-        height: 500px;
+        height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+            @include md{
+            justify-content: flex-start;
+            align-items: flex-end;
+            
+            }
+            
+            >h1{
+            font-size: rem-calc(40);
+            font-weight:300;
+            
+            line-height: 0;
+            color: $black;
+            
+
+            @include md{
+            font-size: rem-calc(65);
+            color: $white;
+            }
+            @include lg{
+                font-size: rem-calc(80);
+            }
+            }
     }
     #colorfulhomes_image
     {

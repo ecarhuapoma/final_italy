@@ -7,18 +7,16 @@
             background-image: url("../img/history/rome.jpg");
             background-position: center;
             background-size: cover;
-            height: 500px;
+            height: 300px;
             display: flex;
             justify-content: center;
             align-items: center;
-            
 
             @include md{
-                justify-content: flex-start;
+            justify-content: flex-start;
             align-items: flex-end;
-            
             }
-            
+
             >h1{
             font-size: rem-calc(40);
             font-weight:300;
@@ -36,13 +34,28 @@
             }
             }
         }
+
+        #little{
+            background-color: $bg-blue;
+            color: $white;
+            padding: 20px;
+            text-align: center;
+            font-weight: 300; 
+        }
+
         #sardinia_image
         {
             background-image: url("../img/history/sardinia.png");
             background-position: center;
             background-size: cover;
-            height: 500px;
+            height: 200px;
         }
+
+        #sardinia_title{
+            font-size: rem-calc(20);
+            
+        }
+
         #church_image
         {
             background-image: url("../img/history/church.png");
@@ -50,6 +63,11 @@
             background-size: cover;
             height: 300px;
         }
+
+        #milan_title{
+            font-size: rem-calc(20);
+        }
+
         #flag_image
         {
             background-image: url("../img/history/flag.png");
