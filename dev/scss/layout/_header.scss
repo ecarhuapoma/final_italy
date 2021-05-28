@@ -1,3 +1,17 @@
 /* =============
     Header
 ============= */
+
+header{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". header .";
+    background-color: $bg-blue;
+    >h1{
+        grid-area: header;
+        color: $white;
+        >span{
+            font-weight: 700;
+        }
+    }
+}
