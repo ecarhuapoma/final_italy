@@ -367,6 +367,19 @@ ul li {
 /* =============
     Typography
 ============= */
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+h2, h3 {
+  font-family: "Ubuntu", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
@@ -394,14 +407,44 @@ textarea {
 /* =============
     Header
 ============= */
-header {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". header .";
-  background-color: #3762C5;
+#header {
+  background-color: #fff;
 }
-header > h1 {
+#header > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#header > div > h1 {
+  align-self: center;
+  order: 2;
   grid-area: header;
+  font-weight: 300;
+  font-size: 3.125rem;
+}
+@media (min-width: 768px) {
+  #header > div > h1 {
+    font-size: 6.25rem;
+  }
+}
+#header > div > h1 > span {
+  font-weight: 700;
+  color: #C64040;
+}
+#header > div > h1 > form {
+  order: 1;
+}
+@media (min-width: 768px) {
+  #header > div {
+    align-items: center;
+    padding-bottom: 32px;
+  }
+  #header > div h1 {
+    order: 1;
+  }
+  #header > div > form {
+    order: 2;
+  }
 }
 
 /* =============
@@ -464,7 +507,7 @@ header > h1 {
   background-size: cover;
   height: 500px;
 }
-#destinations_section > article #italyalley_image {
+#destinations_section > article #italyalley {
   background-image: url("../img/destinations/italyalley.jpg");
   background-position: center;
   background-size: cover;

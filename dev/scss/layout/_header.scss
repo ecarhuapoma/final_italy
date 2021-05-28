@@ -2,12 +2,52 @@
     Header
 ============= */
 
-header{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". header .";
-    background-color: $bg-blue;
-    >h1{
+#header{
+    // display: grid;
+    // grid-template-columns: 16px auto 16px;
+    // grid-template-areas: ". header .";
+    background-color: $white;
+   >div{ 
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+
+       >h1{
+           align-self: center;
+        order: 2;
         grid-area: header;
+        font-weight:300;
+        font-size: rem-calc(50);
+        @include md{
+            font-size: rem-calc(100)
+        }
+        >span{
+            font-weight:700;
+            color: $italy-red;
+        }
+
+        >form{
+
+            order: 1;            
+        }
+    }
+
+    @include md{
+
+ align-items: center;
+
+ padding-bottom: 32px;
+
+ h1{
+     order: 1;
+ }
+ >form{
+     order: 2;
+ }
+
+    }
+
+    
+        
     }
 }
