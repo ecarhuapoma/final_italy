@@ -1,7 +1,6 @@
 #cuisine_section
 {
-    >article
-    {
+    
     #tomatos_image
     {
         background-image: url("../img/food/tomatos.jpg");
@@ -44,6 +43,63 @@
         height: 300px;
     }
 
+    #cuisine_grid{
+        
+        @include md{
+            padding-bottom: 25px;
+            display: grid;
+            background-color: $bg-blue;
+            margin-bottom: 50px;
+            grid-template-columns: 60% auto;
+            grid-template-areas: 
+        "text lasagna"
+        ;
 
+    
+        }
+        
+        #cuisine_text{
+            // grid-area: text;
+            text-align: center;
+            color: $white;
+            padding: 20px 62px;
+            line-height: 20px;
+            background-color: $bg-blue;
+            font-weight: 300;
+            font-family: 'Raleway', sans-serif;
+            padding-bottom: 200px;
+            
+            @include md{
+                grid-area: text;
+                margin: 0px;
+                padding-left: 20px;
+                padding-bottom: 0px;
+                //margin-bottom: 25px;
+                text-align: left;
+            }
+        }
+
+        #lasagna_image{
+            //grid-area: lasagna;
+            margin: 0px 40px;
+            margin-top: -150px;
+            margin-bottom: 70px;
+            
+            
+            @include md{
+                grid-area: lasagna;
+                margin-top: 0px;
+                padding: 0px;
+                width: 100%;
+                margin-left: 0px;
+                margin-bottom: 0px;
+                margin-top: 20px;
+                background-position: left;
+                
+                //height: 300px;
+            }
+            
+        }
     }
+    
 }

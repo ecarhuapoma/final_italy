@@ -844,7 +844,7 @@ textarea {
   }
 }
 
-#cuisine_section > article #tomatos_image {
+#cuisine_section #tomatos_image {
   background-image: url("../img/food/tomatos.jpg");
   background-position: center;
   background-size: cover;
@@ -854,33 +854,79 @@ textarea {
   align-items: center;
 }
 @media (min-width: 768px) {
-  #cuisine_section > article #tomatos_image {
+  #cuisine_section #tomatos_image {
     justify-content: flex-start;
     align-items: flex-end;
   }
 }
-#cuisine_section > article #tomatos_image > h1 {
+#cuisine_section #tomatos_image > h1 {
   font-size: 2.5rem;
   font-weight: 300;
   line-height: 0;
   color: #fff;
 }
 @media (min-width: 768px) {
-  #cuisine_section > article #tomatos_image > h1 {
+  #cuisine_section #tomatos_image > h1 {
     font-size: 4.0625rem;
     color: #fff;
   }
 }
 @media (min-width: 1024px) {
-  #cuisine_section > article #tomatos_image > h1 {
+  #cuisine_section #tomatos_image > h1 {
     font-size: 5rem;
   }
 }
-#cuisine_section > article #lasagna_image {
+#cuisine_section #lasagna_image {
   background-image: url("../img/food/lasagna.png");
   background-position: center;
   background-size: cover;
   height: 300px;
+}
+@media (min-width: 768px) {
+  #cuisine_section #cuisine_grid {
+    padding-bottom: 25px;
+    display: grid;
+    background-color: #3762C5;
+    margin-bottom: 50px;
+    grid-template-columns: 60% auto;
+    grid-template-areas: "text lasagna";
+  }
+}
+#cuisine_section #cuisine_grid #cuisine_text {
+  text-align: center;
+  color: #fff;
+  padding: 20px 62px;
+  line-height: 20px;
+  background-color: #3762C5;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 200px;
+}
+@media (min-width: 768px) {
+  #cuisine_section #cuisine_grid #cuisine_text {
+    grid-area: text;
+    margin: 0px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    text-align: left;
+  }
+}
+#cuisine_section #cuisine_grid #lasagna_image {
+  margin: 0px 40px;
+  margin-top: -150px;
+  margin-bottom: 70px;
+}
+@media (min-width: 768px) {
+  #cuisine_section #cuisine_grid #lasagna_image {
+    grid-area: lasagna;
+    margin-top: 0px;
+    padding: 0px;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    background-position: left;
+  }
 }
 
 #destinations_section > article #place_image {
