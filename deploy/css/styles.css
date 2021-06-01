@@ -395,6 +395,28 @@ h2 {
 /* =============
     Buttons
 ============= */
+button {
+  border: none;
+  text-decoration: none;
+  cursor: default;
+  background-color: #3762C5;
+  color: #fff;
+  transition: 0.25s;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  button {
+    font-size: 0.9375rem;
+    padding: 15px;
+  }
+}
+button:hover {
+  background-color: #C64040;
+}
+
 /* =============
     Forms
 ============= */
@@ -607,8 +629,35 @@ textarea {
   background-size: cover;
   height: 300px;
 }
+@media (min-width: 768px) {
+  #history_section #sardinia_image {
+    margin-top: -30px;
+  }
+}
 #history_section #sardinia_title {
-  font-size: 1.25rem;
+  font-size: 1.5625rem;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  border-left: solid 5px #3762C5;
+  padding: 3px;
+}
+@media (min-width: 768px) {
+  #history_section #sardinia_title {
+    background-color: #3762C5;
+    color: #fff;
+    padding: 0px;
+    margin-top: -50px;
+    font-size: 1.25rem;
+    line-height: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #history_section #sardinia_title {
+    margin-right: -50px;
+    font-size: 1.25rem;
+    line-height: 40px;
+  }
 }
 #history_section #church_image {
   background-image: url("../img/history/church.png");
@@ -617,7 +666,31 @@ textarea {
   height: 300px;
 }
 #history_section #milan_title {
-  font-size: 1.25rem;
+  font-size: 1.5625rem;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  border-left: solid 5px #3762C5;
+  padding: 3px;
+}
+@media (min-width: 768px) {
+  #history_section #milan_title {
+    background-color: #3762C5;
+    color: #fff;
+    padding: 0px;
+    margin-top: -50px;
+    font-size: 1.25rem;
+    line-height: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #history_section #milan_title {
+    margin-left: -50px;
+    font-size: 1.25rem;
+    line-height: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 60px;
+  }
 }
 #history_section #flag_image {
   background-image: url("../img/history/flag.png");
@@ -643,15 +716,107 @@ textarea {
 }
 #history_section #annoying_grid #sardinia_body1 {
   grid-area: body1;
+  margin-top: -20px;
+  padding-left: 20px;
+  border-left: solid 5px #3762C5;
+}
+@media (min-width: 768px) {
+  #history_section #annoying_grid #sardinia_body1 {
+    padding-left: 0px;
+    margin-top: 10px;
+    padding-left: 15px;
+    border-left: none;
+    border-top: solid 5px #3762C5;
+  }
+}
+@media (min-width: 1024px) {
+  #history_section #annoying_grid #sardinia_body1 {
+    border-top: none;
+    border-left: solid 5px #3762C5;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: -65px;
+    margin-bottom: 60px;
+    font-size: 0.9375rem;
+  }
+  #history_section #annoying_grid #sardinia_body1 > p {
+    margin-top: 25px;
+  }
 }
 #history_section #annoying_grid #sardinia_body2 {
   grid-area: body2;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  margin-top: -10px;
+  padding-left: 20px;
+  border-left: solid 5px #3762C5;
+}
+@media (min-width: 768px) {
+  #history_section #annoying_grid #sardinia_body2 {
+    border-left: none;
+  }
+  #history_section #annoying_grid #sardinia_body2 > p {
+    border-left: solid 5px #3762C5;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-left: -5px;
+    margin-top: -20px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  #history_section #annoying_grid #sardinia_body2 > p {
+    border-left: none;
+    padding: 0px;
+    margin-top: -30px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    font-size: 0.9375rem;
+  }
 }
 #history_section #annoying_grid #annoying_milan {
   grid-area: image2;
 }
 #history_section #annoying_grid #milan_body1 {
   grid-area: body3;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  margin-top: -10px;
+  padding-left: 20px;
+  border-left: solid 5px #3762C5;
+}
+#history_section #annoying_grid #milan_body1 #milan_button {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  #history_section #annoying_grid #milan_body1 #milan_button {
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 768px) {
+  #history_section #annoying_grid #milan_body1 {
+    border-left: none;
+    border-top: solid 5px #3762C5;
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  #history_section #annoying_grid #milan_body1 {
+    border-top: none;
+    border-right: solid 5px #3762C5;
+    padding-right: 15px;
+    margin-right: 15px;
+    margin-top: -65px;
+    margin-bottom: 60px;
+    margin-left: 150px;
+    font-size: 0.9375rem;
+  }
+  #history_section #annoying_grid #milan_body1 > p {
+    margin-top: 25px;
+  }
 }
 @media (min-width: 768px) {
   #history_section #annoying_grid {
@@ -664,11 +829,18 @@ textarea {
     grid-template-columns: auto 10% 15% 5% 10% 30%;
     grid-template-areas: "image1 . flag1 flag1 . image2" "body1 body2 body2 . body3 body3";
   }
+  #history_section #annoying_grid #sardinia_image {
+    margin-top: -50px;
+  }
+  #history_section #annoying_grid #church_image {
+    margin-top: -50px;
+  }
   #history_section #annoying_grid #milan_body1 {
     text-align: right;
   }
   #history_section #annoying_grid #annoying_flag {
     grid-area: flag1;
+    margin-top: 50px;
   }
 }
 
