@@ -862,18 +862,21 @@ textarea {
 #cuisine_section #tomatos_image > h1 {
   font-size: 2.5rem;
   font-weight: 300;
+  margin-bottom: 30px;
   line-height: 0;
   color: #fff;
 }
 @media (min-width: 768px) {
   #cuisine_section #tomatos_image > h1 {
     font-size: 4.0625rem;
+    margin-bottom: 25px;
     color: #fff;
   }
 }
 @media (min-width: 1024px) {
   #cuisine_section #tomatos_image > h1 {
     font-size: 5rem;
+    margin-bottom: 30px;
   }
 }
 #cuisine_section #lasagna_image {
@@ -909,6 +912,20 @@ textarea {
     padding-left: 20px;
     padding-bottom: 0px;
     text-align: left;
+    margin-right: 20px;
+  }
+  #cuisine_section #cuisine_grid #cuisine_text > p {
+    border-left: solid 3px #fff;
+    padding-left: 15px;
+    margin-top: -20px;
+    padding-top: 25px;
+  }
+  #cuisine_section #cuisine_grid #cuisine_text #bottom_text {
+    border-left: solid 3px #fff;
+    padding-left: 15px;
+    margin-top: -20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 #cuisine_section #cuisine_grid #lasagna_image {
@@ -923,8 +940,8 @@ textarea {
     padding: 0px;
     width: 100%;
     margin-left: 0px;
-    margin-bottom: 0px;
-    margin-top: 20px;
+    margin-bottom: 14px;
+    margin-top: 40px;
     background-position: left;
   }
 }

@@ -15,23 +15,24 @@
             @include md{
                 justify-content: flex-start;
             align-items: flex-end;
-            
             }
             
             >h1{
             font-size: rem-calc(40);
             font-weight:300;
-            
+            margin-bottom: 30px;
             line-height: 0;
             color: $white;
             
 
             @include md{
             font-size: rem-calc(65);
+            margin-bottom: 25px;
             color: $white;
             }
             @include lg{
                 font-size: rem-calc(80);
+                margin-bottom: 30px;
             }
             }
     }
@@ -69,6 +70,7 @@
             font-family: 'Raleway', sans-serif;
             padding-bottom: 200px;
             
+            
             @include md{
                 grid-area: text;
                 margin: 0px;
@@ -76,6 +78,24 @@
                 padding-bottom: 0px;
                 //margin-bottom: 25px;
                 text-align: left;
+                margin-right: 20px;
+                // margin-left: 5%;
+                >p{
+                    border-left: solid 3px $white;
+                    padding-left: 15px;
+                    margin-top: -20px;
+                    padding-top: 25px;
+                   
+                    
+                }
+                #bottom_text{
+                        border-left: solid 3px $white;
+                        padding-left: 15px;
+                        margin-top: -20px;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        
+                    }
             }
         }
 
@@ -92,8 +112,8 @@
                 padding: 0px;
                 width: 100%;
                 margin-left: 0px;
-                margin-bottom: 0px;
-                margin-top: 20px;
+                margin-bottom: 14px;
+                margin-top: 40px;
                 background-position: left;
                 
                 //height: 300px;
