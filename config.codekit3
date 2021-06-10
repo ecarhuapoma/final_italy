@@ -60,6 +60,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/destinations\/place2.jpg" : {
+      "ft" : 16384,
+      "iS" : 878812,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/destinations\/place2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/destinations\/place3.jpg" : {
+      "ft" : 16384,
+      "iS" : 814747,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/destinations\/place3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/food\/lasagna.png" : {
       "ft" : 32768,
       "iS" : 239229,
@@ -207,6 +233,83 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/travel\/lineline.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/travel\/lineline.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/travel\/lineline2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/travel\/lineline2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/travel\/long_squiggle.png" : {
+      "ft" : 32768,
+      "iS" : 20118,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/travel\/long_squiggle.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/travel\/squiggle_sara.png" : {
+      "ft" : 32768,
+      "iS" : 9020,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/travel\/squiggle_sara.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/travel\/squiggle_yum.tiff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/travel\/squiggle_yum.tiff",
+      "oF" : 0
+    },
+    "\/deploy\/img\/travel\/squiggle.png" : {
+      "ft" : 32768,
+      "iS" : 7710,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/travel\/squiggle.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/travel\/testing_line.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/travel\/testing_line.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/travel\/water.jpg" : {
       "ft" : 16384,
       "iS" : 46637,
@@ -219,6 +322,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/weather\/sun.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/weather\/sun.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/welcome\/welcome.jpg" : {
       "ft" : 16384,
